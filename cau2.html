@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cau 2</title>
+</head>
+<body>
+<script>
+    let index = 0;
+    function indexOf(number, array){
+        for (let i = 0; i < array.length; i++) {
+            if(number == array[i])
+                return index= i;
+        }
+    }
+    let arr= [7, 2, 6, 5, 3, 2, -1];
+    if (indexOf(3,arr)) {
+        document.write("Vị trí thứ " + index);
+    } else {
+        document.write("Không nằm trong mảng");
+    }
+</script>
+</body>
+</html>
